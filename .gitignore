@@ -1,0 +1,22 @@
+<!-- START OF FILE: .gitignore -->
+# FILENAME: .gitignore
+# Version: 1.0.0
+# Date: 2025-07-16 09:15
+# Author: Rolland MELET & AI Senior Coder
+# Description: Initial gitignore for Google Apps Script project. Excludes clasp config and local environment files.
+
+# Clasp files
+# This file contains the script ID and should NOT be committed to version control.
+.clasp.json
+
+# Node.js (in case you add dependencies later)
+node_modules/
+
+# macOS specific system files
+.DS_Store
+
+# Build outputs or temporary files
+dist/
+build/
+*.log
+<!-- END OF FILE: .gitignore -->

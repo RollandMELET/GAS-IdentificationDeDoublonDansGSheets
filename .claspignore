@@ -1,0 +1,20 @@
+<!-- START OF FILE: .claspignore -->
+# FILENAME: .claspignore
+# Version: 1.0.0
+# Date: 2025-07-16 09:25
+# Author: Rolland MELET & AI Senior Coder
+# Description: Initial claspignore to prevent pushing local config/docs to Google Script Editor.
+
+# Git repository files
+**/.git/**
+
+# Git configuration
+.gitignore
+
+# Project documentation
+README.md
+InitialSpec.md
+
+# Node.js dependencies (if any)
+node_modules/**
+<!-- END OF FILE: .claspignore -->
